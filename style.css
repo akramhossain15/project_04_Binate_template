@@ -1,0 +1,152 @@
+
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+}
+/* nav css */
+.btn-primary{
+    color: white;
+    background: orange;
+}
+.brand-logo{
+    width: 70%;
+}
+.nav{
+    justify-content: end;
+    margin-right: 10px;
+}
+.nav-link {
+    display: block;
+    padding: 23px 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+li.nav-item {
+    display: inline-block;
+    font-size: 20px;
+    color: #0a0909;
+    text-transform: uppercase;
+}
+.nav-link:focus, .nav-link:hover {
+    color: green;
+}
+.menu-bg{
+    background: #bbf7d0 !important;
+}
+
+/* banner css */
+.banner{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.text-primary{
+    color: #10b981 !important;
+}
+.btn-banner{
+    background: #10b981;
+    color: white;
+
+}
+
+/* counter css */
+.counter-top-section{
+    padding: 120px 0;
+}
+.counter-bottom{
+    background: #e4e4e7;
+    padding-bottom: 15px;
+    height: 200px;
+}
+.counter-section{
+    padding-bottom: 140px;
+}
+.counter-item{
+    color: #6366f1;
+}
+
+/* help section */
+
+.new-section img{
+    width: 30px;
+}
+
+/* solution */
+.solution{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.solution-bottom-img{
+    width: 40px;
+
+}
+.solution-bottom{
+    background: #f8fafc;
+    height: 350px;
+}
+.solution-bottom p{
+    width: 80%;
+}
+.box{
+    background: #10b981;
+    color: white;
+    padding: 50px 0;
+    border-radius: 25px;
+}
+.last-banner{
+    margin-top: 100px;
+}
+/* last section css */
+.last-section-text{
+    margin-top: 100px;
+}
+.last-section{
+    background: #1e293b;
+    padding-bottom: 50px;
+}
+.last-section-img img{
+    width: 95%;
+}
+.last-section-img{
+    margin-top: 180px;
+}
+/* footer css */
+.footer{
+    padding-top:100px;
+    background: #0f172a;
+    color: white;
+}
+.footer-left-logo img{
+    width: 120px;   
+}
+.social-icon {
+    margin-top: 70px;
+    font-size: 30px;
+    
+}
+.social-icon a{
+    color: white;
+    padding: 0 5px;
+}
+.social-icon a:hover{
+    color: #10b981;
+}
+/* ScrollTop css */
+.scrollTop {
+    height: 50px;
+    width: 50px;
+    line-height: 50px ;
+    background: #1c6b68;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    text-align: center;
+    display:none;
+}
+.scrollTop a{
+    font-size: 30px;
+    color: white;   
+}
